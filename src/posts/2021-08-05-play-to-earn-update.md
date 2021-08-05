@@ -2,9 +2,7 @@
 title: Play to Earn Update
 date: 2021-08-04T23:09:46.106Z
 ---
-So, in the past 2 weeks since I've written my thoughts on Axie & Play to Earn models, I've bought in to the hype. I've personally had trouble working/focusing the past few weeks because of my tendency to obsess over things. 
-
-Even prior to this, I have been having trouble focusing and this just made it like 2x worse. Hopefully, by writing this down, I'd get to focus more.
+So, in the past 2 weeks since I've written my thoughts on Axie & Play to Earn models, I've bought in to the hype.
 
 I have yet to play on Axie, but in the meantime, I've "played" on:
 
@@ -18,18 +16,22 @@ I have yet to play on Axie, but in the meantime, I've "played" on:
 
 Playing Cryptoblades and Cryptozoon retriggered my plans from a decade ago that I wanted to build a browser-based game. I've played dozens of those in the span of the past decade. Urbandead, Travian, among other things.
 
-My thinking was that, I can build the game on the browser and add on mobile-based/interactive interfaces later on but still building on top of the same server/mechanics.
+I've personally had trouble working/focusing the past few weeks because of my tendency to obsess over things. 
 
+Even prior to this, I have been having trouble focusing and this just made it like 2x worse. Hopefully, by writing this down, I'd get to focus more.
 
+##### Game Format
 
-The game that I want to build would have:
+Since I can only do web development right now, I can build the game on the browser and add on mobile-based/interactive interfaces later on but still build on top of the same server/mechanics.
 
 ##### Game Map
 
-Map-based exploration - maybe use gas to move around? stamina accumulation which gets used per action? 
+Map-based exploration
+
+There will be stamina; and movement & fight costs different staminas. Higher level characters will recover faster and have bigger stamina pool. Moving regions in world map requires gas fees.
 
 Something like the following progression:\
-starting area - path/battleground (tutorial, free) - small town - path/battleground - second town - branch off to multiple paths/battlegrounds - themed cities. 
+starting area - path/battleground (tutorial, free) - themed town - path/battleground - main town - branch off to multiple paths/battlegrounds - other themed towns
 
 The themed cities can be the starting city of different classes. Think Ragnarok.
 
@@ -41,10 +43,6 @@ Teleport between towns can be natural sink for in-game token.
 
 Towns can have NPCs that will give quest. We'll have to adjust quest payouts to take into account the total actions needed to finish the quest (including movement gas fees) and it should always be at least $1.5 equivalent in in-game token.
 
-There will be stamina; and movement & fight costs different staminas. Higher level characters will recover faster and have bigger stamina pool.
-
-
-
 ##### Creating a character
 
 Allocate starting stats, customize the look, give a name, then mint character. $20 on-chain token equivalent?
@@ -52,8 +50,6 @@ Allocate starting stats, customize the look, give a name, then mint character. $
 Maximum 4 characters?
 
 Starting weapon will be random mint but is unsellable.
-
-
 
 ##### Weapons/Classes
 
@@ -74,8 +70,6 @@ Weapon stats:
 \- Element - can have interplay with battle weather; long range & medium range lightning is stronger while raining but will have 50% less sneak chance, fire is weak when windy and rainy but is stronger when sunny but has penalty if CQC weapon, CQC water is stronger when sunny (because it cools down the wielder, reducing fatigue)
 
 \- Sneak - "You can deal deadlier damage if you're able to sneak in from closer." If engaging from hidden, there can be sneak chance: 50%/70%/90% for CQC/PA/RA respectively. If sneak is success, sneak bonus can be 90%/70%/50% for CQC/PA/RA.
-
-
 
 ##### Fights & Skills
 
@@ -121,7 +115,11 @@ You can pay blacksmith outright using on-chain token and/or use rare loot items.
 
 ##### Upgrading Weapons
 
-Give enchanter another weapon to feed to the host weapon. Requires in-game token
+Give enchanter another weapon to feed to the host weapon. Can use in-game or on-chain token.
+
+##### Player-driven Crafting
+
+At a certain level of a certain class (so I need separate class-level progressions? might be interesting because this will force players to choose a specialization), players can start crafting on their own with bonus %-chance to craft higher rarity. This will need on-chain token & in-game token combined + rare items.
 
 ##### Payout
 
