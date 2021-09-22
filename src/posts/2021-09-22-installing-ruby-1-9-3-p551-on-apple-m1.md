@@ -8,6 +8,9 @@ Add `gem 'mimemagic', github: "mimemagicrb/mimemagic", ref: 'a4b038c6c1b9d76dac3
 CFLAGS="-Wno-error=implicit-function-declaration" RUBY_CONFIGURE_OPTS="--with-zlib-dir=$(brew --prefix zlib) --with-openssl-dir=$(brew --prefix openssl@1.1) --with-libyaml-dir=$(brew --prefix libyaml)" arch -x86_64 rvm reinstall 1.9.3-p551 --rubygems 1.3.6
 ```
 ```
+gem install bundler -v '<2.0'
+```
+```
 gem install nokogiri -v '1.6.2' --source 'http://rubygems.org/' -- --use-system-libraries --with-xml2-include=/usr/include/libxml2
 ```
 ```
