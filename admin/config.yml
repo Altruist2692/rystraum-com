@@ -6,7 +6,7 @@ publish_mode: editorial_workflow
 media_folder: "src/static/images/uploads"
 public_folder: "/static/images/uploads"
 
-post_fields:
+post_fields: &post_fields
   - {label: "Title", name: "title", widget: "string", required: true}
   - {label: "Publish Date", name: "date", widget: "datetime"}
   - {label: "Category", name: "category", widget: "select", options: ["tech", "business", "personal"]}
@@ -18,7 +18,7 @@ collections:
     folder: "src/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: &post_fields
+    fields: *post_fields
 
   - name: "tech_posts"
     label: "Tech Posts"
@@ -26,7 +26,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     filter: {field: "category", value: "tech"}
-    fields: &post_fields
+    fields: *post_fields
 
   - name: "business_posts"
     label: "Business Posts"
@@ -34,7 +34,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     filter: {field: "category", value: "business"}
-    fields: &post_fields
+    fields: *post_fields
 
   - name: "personal_posts"
     label: "Personal Posts"
@@ -42,5 +42,5 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     filter: {field: "category", value: "personal"}
-    fields: &post_fields
+    fields: *post_fields
   
