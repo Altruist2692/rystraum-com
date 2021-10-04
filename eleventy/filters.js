@@ -17,5 +17,15 @@ module.exports = {
 
     cssmin: function(css) {
         return new CleanCSS({}).minify(css).styles
+    },
+
+    categoryFilter: function(collection, category) {
+        if (!category) return collection;
+        return collection.filter(item => item.data.category === category);
+    },
+
+    categoriesFilter: function(collection, categories) {
+        if (!categories) return collection;
+        return collection.filter(item => categories.includes(item.data.category));
     }
 }

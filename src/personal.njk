@@ -2,9 +2,9 @@
 layout: base
 ---
 
-<div class="homepage">
+<div class="main">
     <ol class="postlist" reversed>
-        {% for post in collections.all | categoriesFilter(['tech', 'business']) | reverse %}
+        {% for post in collections.all | categoryFilter("personal") | reverse %}
             {% include 'post_item.njk' %}
         {% endfor %}
     </ol>

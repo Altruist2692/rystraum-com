@@ -84,3 +84,11 @@ html {
     margin-bottom: 0.3rem;
     /* font-family: 'Ubuntu Mono', monospace; */
 }
+
+.d-block {
+    display: block;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}

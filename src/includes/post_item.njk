@@ -1,0 +1,6 @@
+<li>
+    <time datetime="{{ post.date | dateToFormat('yyyy-LL-dd') }}">
+        {{ post.data.category | capitalize }} - {{ post.date | dateToFormat(meta.dateFormat) }}
+    </time>
+    <span><a href="{{ post.url | url }}">{{ post.data.title }}</a></span>
+</li>
