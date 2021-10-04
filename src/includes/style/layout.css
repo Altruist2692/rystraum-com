@@ -79,16 +79,36 @@ html {
     border-bottom: 1px solid;
 }
 
+.postlist time a {
+    color: inherit;
+    border-bottom: 1px dashed #aeaeae;
+}
+
 .postlist time {
-    font-size: 65%;
+    font-size: 60%;
     margin-bottom: 0.3rem;
-    /* font-family: 'Ubuntu Mono', monospace; */
 }
 
 .d-block {
     display: block;
 }
 
+.mb-1 {
+    margin-bottom: 0.3rem !important;
+}
+
 .mb-2 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.ml-2 {
+    margin-left: 0.6rem !important;
+}
+
+.mt-2 {
+    margin-top: 0.6rem !important;
+}
+
+.flex-column {
+    flex-direction: column;
 }
