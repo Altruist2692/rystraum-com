@@ -1,6 +1,7 @@
 ---
 title: How to move PostgreSQL DBs
 date: 2020-04-06T15:59:52.998Z
+category: tech
 ---
 Downtime: however long rsync takes
 

@@ -1,6 +1,7 @@
 ---
 title: Wants (aside from coding/working)
 date: 2020-04-14T07:44:20.799Z
+category: personal
 ---
 # Things I want to do during ECQ:
 

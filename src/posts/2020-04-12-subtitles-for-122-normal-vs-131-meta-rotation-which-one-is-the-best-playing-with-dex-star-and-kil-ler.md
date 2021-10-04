@@ -2,6 +2,7 @@
 title: Subtitles for 122 (NORMAL) VS 131 (META) ROTATION? WHICH ONE IS THE BEST?
   PLAYING WITH DEX STAR AND KIL LER
 date: 2020-04-12T18:28:07.154Z
+category: personal
 ---
 https://www.youtube.com/watch?v=AdIK7QE5QAA
 

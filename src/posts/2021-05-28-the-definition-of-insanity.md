@@ -1,6 +1,7 @@
 ---
 title: The Definition of Insanity
 date: 2021-05-28T09:57:05.341Z
+category: business
 ---
 About 4 years - maybe 5 years ago, we decided we'll wrap up our remaining projects and close shop. The years prior felt like an infinite struggle and it has been year after year of saying "Let's close down."
 

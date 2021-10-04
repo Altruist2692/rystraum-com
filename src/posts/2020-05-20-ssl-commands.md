@@ -1,6 +1,7 @@
 ---
 title: SSL Commands
 date: 2020-05-20T04:44:59.742Z
+category: tech
 ---
 I've done this 3 times now, so I should be writing this down.
 

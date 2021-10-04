@@ -1,6 +1,7 @@
 ---
 title: COVID Lockdown & beyond
 date: 2020-04-02T12:55:16.149Z
+category: personal
 ---
 Metro Manila has been in lockdown since March 15. The original plan was only to have it in lockdown until April 14. Whether or not that original plan is going to push through or not is slowly becoming the main conversation the past few days.
 

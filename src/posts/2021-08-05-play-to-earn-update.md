@@ -1,6 +1,7 @@
 ---
 title: Play to Earn Update
 date: 2021-08-04T23:09:46.106Z
+category: personal
 ---
 So, in the past 2 weeks since I've written my thoughts on Axie & Play to Earn models, I've bought in to the hype.
 

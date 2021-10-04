@@ -1,6 +1,7 @@
 ---
 title: Fixing error of letsencrypt with python virtualenv
 date: 2020-07-07T10:08:38.672Z
+category: tech
 ---
 ```
 $ apt-get remove python-virtualenv

@@ -1,6 +1,7 @@
 ---
 title: Thoughts on Axie and play-to-earn models
 date: 2021-07-20T06:38:29.291Z
+category: personal
 ---
 I am at odds with Axie and the whole play-to-earn model as a way to earn money. It surprised me that I would feel conflicted about this because who wouldn't like just playing a game and earning from it right? I definitely would. As a gamer/grinder by upbringing, I now understand why this bothers me so much.
 
