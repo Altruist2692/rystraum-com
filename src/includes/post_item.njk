@@ -1,6 +1,6 @@
-<li>
-    <time datetime="{{ post.date | dateToFormat('yyyy-LL-dd') }}">
-        {{ post.data.category | capitalize }} - {{ post.date | dateToFormat(meta.dateFormat) }}
+<li class="post-item">
+    <time class="roboto text-small" datetime="{{ post.date | dateToFormat('yyyy-LL-dd') }}">
+        {{ post.date | dateToFormat(meta.dateFormat) }} &middot; <a href="/{{ post.data.category }}">{{ post.data.category | capitalize }}</a> &middot; {{ post.templateContent | timeToRead('250 words a minute') }} read
     </time>
-    <span><a href="{{ post.url | url }}">{{ post.data.title }}</a></span>
+    <span><a class="ubuntu" href="{{ post.url | url }}">{{ post.data.title }}</a></span>
 </li>

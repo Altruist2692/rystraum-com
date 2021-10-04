@@ -23,6 +23,7 @@
     "core-js": "3",
     "dotenv": "^8.2.0",
     "eleventy-plugin-pwa": "^1.0.8",
+    "eleventy-plugin-time-to-read": "^1.1.0",
     "html-minifier": "^4.0.0",
     "luxon": "^1.22.0",
     "markdown-it": "^10.0.0",
