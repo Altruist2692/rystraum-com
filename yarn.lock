@@ -810,6 +810,11 @@ eleventy-plugin-pwa@^1.0.8:
     shimmer "^1.2.1"
     workbox-build "^4.3.0"
 
+eleventy-plugin-time-to-read@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-time-to-read/-/eleventy-plugin-time-to-read-1.1.0.tgz#77aa95fd99262f22e8128657c1fc221d866f3523"
+  integrity sha512-7z5Yp+/fAnN6gWKl999Kz/pc80beHeh9YUEneOa4wjTZ44NKWq2fcl12TIDpVYmGBSFvdW0w8XtV0BjwhOyr/w==
+
 emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
